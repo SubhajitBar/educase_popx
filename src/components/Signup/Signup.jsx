@@ -102,7 +102,7 @@ const Signup = () => {
           </div>
           <div className="column col-12 d-flex align-items-end">
             <div className="d-grid gap-3 col-12 mx-auto ">
-              <button className="btn btn-signup text-light" type="submit">
+              <button className="btn btn-signup text-light my-5" type="submit">
                 Create Account
               </button>
             </div>
