@@ -183,6 +183,11 @@ a {
     width: 100px;
   }
 
+  .Avatar span {
+    bottom: 0px;
+    right: 0px;
+  }
+
   .my-info {
     width: 100% !important;
   }
