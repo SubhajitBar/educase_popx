@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+#root {
+  background-color: #f7f8f9;
+}
+
+.body,
+html {
+  background-color: #f7f8f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+p {
+  color: #4c565d;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+h2,
+h1,
+h5,
+span,
+input,
+label,
+a {
+  font-family: "Rubik", sans-serif;
+}
+
+.cont {
+  width: 90vw;
+  height: 95vh;
+}
+
+.hero-section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-section {
+    align-items: flex-end;
+    justify-content: center;
+  }
+}
+
+.btn-signup {
+  background-color: #6c25ff;
+  font-family: "Rubik", sans-serif;
+}
+
+.btn-signup:hover {
+  background-color: #7938fc;
+}
+
+.btn-login {
+  background-color: #6c25ff4b;
+  font-family: "Rubik", sans-serif;
+}
+.btn-login:hover {
+  background-color: #8c53ff4b;
+}
+
+/* Hero Sec Ends */
+
+/* Login Section */
+
+.input-area {
+  position: relative;
+}
+.input-area input {
+  background: #f7f8f9 !important;
+}
+.input-area input::placeholder {
+  color: #919191;
+}
+.input-area input:focus {
+  border: 1px solid #cbcbcb;
+  box-shadow: none;
+}
+.input-area span {
+  position: absolute;
+  top: -15px;
+  left: 9px;
+  padding: 0px;
+  pointer-events: none;
+  background: #f7f8f9;
+  color: #6c25ff;
+  font-size: 0.9rem;
+}
+
+.login-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+/* login section ends */
+
+/* Signup section  */
+.signup-section {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.label::after {
+  content: "*";
+  color: red;
+  font-size: 18px;
+}
+.label-checkbox {
+  font-family: "Rubik", sans-serif;
+}
+
+.check .form-check .form-check-input:checked {
+  background-color: #6c25ff !important;
+  border-color: #6c25ff !important;
+}
+
+.label-checkbox::after {
+  content: "*";
+  color: red;
+  font-size: 18px;
+}
+
+.signup-section .row {
+  height: 100%;
+}
+
+/* Signup section ends */
+
+/* Profile Section */
+.profile-section {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f7f8f9;
+}
+
+.profile-section .row {
+  margin: 3rem 0;
+}
+
+.Avatar {
+  position: relative;
+}
+.Avatar img {
+  width: 150px;
+}
+
+.Avatar span {
+  position: absolute;
+
+  bottom: 0px;
+  right: 20px;
+  padding: 3px 6px;
+  border-radius: 100%;
+  pointer-events: none;
+  background: #6c25ff;
+  color: #f7f8f9;
+  font-size: 0.9rem;
+}
+
+.my-info {
+  width: 60% !important;
+  margin: 2rem 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .Avatar img {
+    width: 100px;
+  }
+
+  .my-info {
+    width: 100% !important;
+  }
+}
+
+/* Profile Section Ends */
