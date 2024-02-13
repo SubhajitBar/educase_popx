@@ -1,11 +1,12 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Loader from "./components/Loader";
+import LandingPage from "./components/LandingPage/LandingPage";
+import Signup from "./components/Signup/Signup";
+import Login from "./components/Login/Login";
+import Profile from "./components/Profile/Profile"
 import "./App.css";
-const LandingPage = lazy(() => import("./components/LandingPage/LandingPage"));
-const Signup = lazy(() => import("./components/Signup/Signup"));
-const Login = lazy(() => import("./components/Login/Login"));
-const Profile = lazy(() => import("./components/Profile/Profile"));
+
 
 const App = () => {
   return (
